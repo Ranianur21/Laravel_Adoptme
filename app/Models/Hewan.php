@@ -12,10 +12,14 @@ class Hewan extends Model
      protected $fillable = [
         'nama',
         'jenis',
-        'usia' => 'integer',
+        'usia' ,
         'jenis_kelamin',
         'deskripsi',
         'gambar',
-        'status', // Tambahkan kolom 'status' di sini
+        'status', 
+    ];
+
+    protected $casts = [
+     'usia' => 'integer',
     ];
 }

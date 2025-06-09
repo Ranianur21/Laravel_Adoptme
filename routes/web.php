@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HewanController;
 
 // Beri nama 'home' pada rute halaman utama
 Route::get('/', function () {
@@ -16,6 +17,8 @@ Route::get('/kontak', function () {
 Route::get('/hewan', function () {
     return view('user.hewan');
 })->name('hewan');
+
+Route::get('/hewan', [HewanController::class, 'index'])->name('hewan');
 
 // Beri nama 'tentang' pada rute about
 Route::get('/about', function () {
