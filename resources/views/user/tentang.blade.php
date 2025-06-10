@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     @vite('resources/css/app.css')
     <title>AdoptMe - Tentang</title>
 </head>
 
@@ -21,7 +22,7 @@
             <p class="text-[#6d4c41] mt-2" style="text-align: justify;">
                 Melalui platform ini, kami mempermudah proses adopsi hewan dengan transparansi dan kemudahan akses informasi.
             </p>
-            <a href="/kontak" class="mt-6 inline-block bg-[#8b5e34] text-white py-2 px-6 rounded-lg hover:bg-[#6d4c41] transition duration-300">
+            <a href="{{ route('kontak') }}" class="mt-6 inline-block bg-[#8b5e34] text-white py-2 px-6 rounded-lg hover:bg-[#6d4c41] transition duration-300">
                 Hubungi Kami
             </a>
         </div>

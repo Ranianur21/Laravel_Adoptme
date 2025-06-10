@@ -95,8 +95,7 @@
 
         {{-- Kolom Kanan: Gambar --}}
         <div class="mt-8 md:mt-0 md:w-1/2 flex justify-center"> {{-- mt-8 untuk mobile, md:mt-0 untuk desktop --}}
-            <div class="relative w-full max-w-sm h-72 overflow-hidden rounded-lg shadow-lg"> {{-- w-full max-w-sm agar responsif --}}
-                {{-- Pastikan 'images/adopsi.jpg' ada di folder public/images/ --}}
+            <div class="relative w-full max-w-sm h-72 overflow-hidden rounded-lg shadow-lg"> 
                 <img src="{{ asset('images/adopsi.jpg') }}" alt="Hewan Adopsi" class="w-full h-full object-cover">
             </div>
         </div>

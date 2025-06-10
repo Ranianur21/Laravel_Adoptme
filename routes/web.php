@@ -21,7 +21,7 @@ Route::get('/hewan', function () {
 Route::get('/hewan', [HewanController::class, 'index'])->name('hewan');
 
 // Beri nama 'tentang' pada rute about
-Route::get('/about', function () {
+Route::get('/tentang', function () {
     return view('user.tentang');
 })->name('tentang');
 

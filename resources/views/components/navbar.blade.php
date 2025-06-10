@@ -11,7 +11,7 @@
             <x-nav-link href="/" :active="request()->is('/')">Home</x-nav-link>
             <x-nav-link href="/tentang" :active="request()->is('tentang')">Tentang</x-nav-link>
             <x-nav-link href="/hewan" :active="request()->is('hewan')">Hewan</x-nav-link>
-            <x-nav-link href="/kontak" :active="request()->is('kontak')">Kontak</x-nav-link>>
+            <x-nav-link href="/kontak" :active="request()->is('kontak')">Kontak</x-nav-link>
 
             <!-- Keranjang Icon -->
             <a href="keranjang.php" class="relative">
@@ -29,7 +29,7 @@
                         <a href="{{ route('profil') }}" class="block px-4 py-2 hover:bg-gray-100">Profil</a>
                         <a href="{{ route('toko') }}" class="block px-4 py-2 hover:bg-gray-100">Toko</a>
                         <a href="{{ route('panduan') }}" class="block px-4 py-2 hover:bg-gray-100">Panduan</a>
-                        <a href=" {{ route('logout') }} class="block px-4 py-2 text-[#8b5e34] hover:bg-gray-100 font-bold">Logout</a>
+                        <a href=" {{ route('logout') }}" class="block px-4 py-2 text-[#8b5e34] hover:bg-gray-100 font-bold">Logout</a>
                     </div>
                 </div>
 
